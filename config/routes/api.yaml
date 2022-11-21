@@ -1,0 +1,5 @@
+# Configuración de la ruta de la API
+api:
+  resource: ../../src/Controller/Api
+  type: annotation
+  prefix: /api/

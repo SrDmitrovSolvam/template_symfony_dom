@@ -1,0 +1,7 @@
+##Configuracion mapeo
+#App\Entity\Entidad1:
+#  attributes:
+#    id:
+#      groups: ['ep1Entidad1']
+#    att1:
+#      groups: ['ep1Entidad1','ep2Entidad1', 'ep1Entidad2']

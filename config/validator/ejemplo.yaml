@@ -1,0 +1,17 @@
+## Config validator Entidad1
+#App\Entity\Entidad1:
+#  properties:
+#    # Constraints:
+#    nombre:
+#      - NotBlank:
+#          message: 'el valor NOMBRE no puede estar vacío'
+#    telefono:
+#      - NotBlank:
+#          message: 'el valor TELEFONO no puede estar vacío'
+#      - Regex:
+#          pattern: '/^[0-9]+$/i'
+#          match: true
+#          message: 'Funciona!'
+#      - Length:
+#          max: 9
+#          maxMessage: 'No puede ser superior a 9 numeros'
